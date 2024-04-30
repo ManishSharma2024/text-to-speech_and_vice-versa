@@ -7,7 +7,7 @@ body
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url("images/sound_image.jpg") ;
+    background: url("sound_image.jpg") ;
 }
 
 .container {
