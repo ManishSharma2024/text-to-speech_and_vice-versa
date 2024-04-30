@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Voice-to-Text and Text-to-Voice Converter</title>
+    
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="container" id="voiceToTextContainer">
+        <h1>Voice-to-Text</h1>
+        <div class="controls">
+            <label for="language">Select Language:</label>
+            <select id="language">
+                <option value="en-IN">English (India)</option>
+                <option value="hi-IN">Hindi</option>
+                <option value="te-IN">Telugu</option>
+                <option value="gu-IN">Gujarati</option>
+                <option value="ta-IN">Tamil</option>
+                
+            </select>
+            <button id="startBtn">Start Recording</button>
+        </div>
+        <textarea id="output" placeholder="Speak something..."></textarea>
+    </div>
+
+    <div class="container" id="textToVoiceContainer">
+        <h1>Text-to-Voice </h1>
+        <textarea id="inputText" placeholder="Type something..."></textarea>
+        <button id="speakBtn">Speak</button>
+    </div>
+
+    
+    <script src="first.js"></script>
+</body>
+
+</html>

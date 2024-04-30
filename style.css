@@ -1,0 +1,68 @@
+body 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("images/sound_image.jpg") ;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(119, 120, 218, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(65, 9, 220, 0.2);
+    margin-bottom: 20px;
+}
+ 
+h1 {
+    color: #040000;
+}
+
+.controls {
+    margin-bottom: 25px;
+}
+
+label {
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+select,
+button {
+    padding: 15px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 18px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+
+#voiceToTextContainer {
+    margin-right: 20px;
+}
+
+
+#textToVoiceContainer {
+    text-align: center;
+}
+
+#textToVoiceContainer textarea {
+    width: 40%;
+    height: 110px;
+    padding: 40px;
+    font-size: 16px;
+}
